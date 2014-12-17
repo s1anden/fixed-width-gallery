@@ -1,0 +1,43 @@
+<html>
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/gallery.js"></script>
+	<script src="js/sample.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:100,400">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" type="image/png" href="images/og_logo.png">
+	<title>Asana Gallery</title>
+</head>
+<body>
+	<nav>
+		<img id="asana" src="images/og_logo-nav.png" />
+		<div id="changeSize">
+			<form>
+				<span>Change gallery size</span>
+				<!-- Width and height icons courtesy of Tracy Houdak and Mister Pixel at The Noun Project -->
+				<div class="formEl">
+					<img class="indicator" src="images/width.png" />
+					<input name="width" id="width" type="text" tabindex="1" size="4" placeholder="Width">
+				</div>
+				<div class="formEl">
+					<img class="indicator" src="images/height.png" />
+					<input name="height" id="height" type="text" tabindex="2" size="4" placeholder="Height">
+				</div>
+
+				<div class="formEl">
+					<img class="indicator" src="images/spacing.png" />
+					<input name="spacing" id="spacing" type="text" tabindex="3" size="4" placeholder="Spacing">
+				</div>
+
+				<div class="formEl submit">
+					<a id="formSubmit" href="#">CHANGE</a>
+				</div>
+			</form>
+		</div>
+		<img id="settings" src="images/ic_settings.png" />
+	</nav>
+	<div id="gallery">
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color:white;
+}
+
+nav {
+	background-color: #2196F3;
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	height:100px;
+	z-index:99999;
+	box-shadow: 0 1px 4px rgba(49, 49, 64, 0.8);
+	-webkit-box-shadow: 0 1px 4px rgba(49, 49, 64, 0.8);
+	-moz-box-shadow: 0 1px 4px rgba(49, 49, 64, 0.8);
+}
+
+nav #asana {
+	height:60%;
+	position:relative;
+	top:20%;
+	left:1%;
+}
+
+nav #settings {
+	height:30%;
+	position: relative;
+	top:35%;
+	right:2%;
+	float:right;
+	cursor:pointer;
+}
+
+nav #changeSize {
+	display:none;
+	position:fixed;
+	right:6%;
+	top:35px;
+	background-color: white;
+	color:rgba(0,0,0,0.87);
+	z-index: 999999;
+	text-align: left;
+	box-shadow: -1px -1px 4px rgba(49, 49, 64, 0.8);
+	-webkit-box-shadow: -1px -1px 4px rgba(49, 49, 64, 0.8);
+	-moz-box-shadow: -1px -1px 4px rgba(49, 49, 64, 0.8);
+	border-radius: 1px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	padding:16px;
+	width:192px;
+}
+
+nav form input[type="text"] {
+	border:none;
+	border-bottom: 1px solid rgba(0,0,0,0.12);
+	background-color: transparent;
+	font-size: 12px;
+}
+
+nav form input[type="text"]:focus {
+	box-shadow: 0 0 0;
+	outline:0;
+	border-bottom: 1px solid #E91E63;
+}
+
+.formEl {
+	display:block;
+	height:24px;
+	padding-top: 24px
+}
+
+.formEl.submit {
+	float:right;
+}
+
+.indicator {
+	height:1rem;
+	margin-bottom:-2px;
+	margin-right: 1px;
+}
+
+#formSubmit {
+	color: #E91E63;
+	text-decoration: none;
+	font-weight: bold;
+	float:right;
+}
+
+.frame {
+	box-shadow: 1px 1px 4px rgba(49, 49, 64, 0.8);
+	-webkit-box-shadow: 1px 1px 4px rgba(49, 49, 64, 0.8);
+	-moz-box-shadow: 1px 1px 4px rgba(49, 49, 64, 0.8);
+	float:left;
+	display:block;
+	border-radius: 1px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+}
+
+#gallery {
+	width:1200px;
+	height:100%;
+	margin:auto;
+	top:150px;
+	position: relative;
+}
+
+.frame img {
+	width:100%;
+	height:100%;
+	position:relative;
+	top:0;
+	left:0;
+	border-radius: 1px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+}
+
+div.title {
+	z-index:1000;
+	position:relative;
+	width:100%;
+	bottom:48px;
+	left:0;
+	height:48px;
+	display: none;
+	background-color: #E91E63;
+	color: #FFFFFF;
+	overflow: hidden;
+	opacity: 0.8;
+}
+
+p.title {
+	padding: 16px 16px 16px 16px;
+	position:relative;
+	bottom:16px;
+	left:0;
+	line-height: 16px;
+}
